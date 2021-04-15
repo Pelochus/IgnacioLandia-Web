@@ -14,6 +14,9 @@
 		
 		<!-- Favicon -->
 		<link rel="shortcut icon" type="image/jpg" href="/images/favicon.jpg">
+		
+		<!-- CSS Styles File -->
+		<link rel= "stylesheet" type="text/css" href="/css/styles.css">
 	</head>
 	
 	<!-- Body -->
