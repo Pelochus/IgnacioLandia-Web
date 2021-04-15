@@ -4,8 +4,8 @@
  */
 
 body {
-	background-image: url(images/quijotefondo.jpg); 
-	background-repeat: no-repeat 
+	background-image: url(images/bckgrnd.jpg);
+	width: 97%;
 }
 
 /* Classes */
