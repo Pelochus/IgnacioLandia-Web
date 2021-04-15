@@ -8,15 +8,15 @@
 		<!-- Metadatos -->
 		<meta charset="UTF-8">
 		<meta name="description" content="IgnacioLandia">
-		<meta name="author" content="Ignacio">
+		<meta name="author" content="Pelochus & sharpplusplus">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para autoresolution -->
 		<!-- Favicon -->
-		<link rel="shortcut icon" type="image/jpg" href="/src/favicon.jpg">
+		<link rel="shortcut icon" type="image/jpg" href="/images/favicon.jpg">
 	</head>
 	
 	<!-- Body -->
 	
-	<body style="background-image:url(src/bckgrnd.jpg); background-repeat:no-repeat; width:97%">
+	<body style="background-image:url(images/bckgrnd.jpg); width:97%">
 	
 		<!-- Header -->
 		
@@ -24,7 +24,7 @@
 			<div id="header" style="width:100%; height:52px; border-width:3px; border-style:solid; top:0; text-align:center; padding:2px">
 				<div style="text-align:right; width:89%; float:left"><p style="color:white; font-size:24px; font-family:helvetica">IgnacioLandia: <i>Minecraft Server</i></p></div>
 				<div id="logo" style="float:right; border-width:3px; border-style:double; width:8%; height:66px; padding:1px">
-					<img src="src/fotoignacio.png" style="height:100%; width:100%; padding:1px">
+					<img src="images/fotoignacio.png" style="height:100%; width:100%; padding:1px">
 				</div>
 			</div>
 		</center>
@@ -39,8 +39,8 @@
 					<p style="color:white; font-size:20px; font-family:helvetica">Information about the server</p>
 					<p style="color:white; font-family:helvetica">
 					<?php
-						require __DIR__ . '/src/MinecraftPing.php';
-						require __DIR__ . '/src/MinecraftPingException.php';
+						require __DIR__ . '/php/MinecraftPing.php';
+						require __DIR__ . '/php/MinecraftPingException.php';
 						
 						use xPaw\MinecraftPing;
 						use xPaw\MinecraftPingException;
@@ -105,7 +105,7 @@
 			<div style="text-align:center; background-color:black; width:12%; height:20px"><p style="color:white; font-size:24px; font-family:helvetica">What is this?</p></div>
 			<hr color=red width=12% align=left>
 			<p style="font-family:arial; font-size:18px; text-align:justify; margin:30px; color:595959">
-				<img src="src/fotoiglesia.png" style="float:right; padding:3px; width:36%; height:80%"> <!-- Añadir una foto de la iglesia -->
+				<img src="images/fotoiglesia.png" style="float:right; padding:3px; width:36%; height:80%"> <!-- Añadir una foto de la iglesia -->
 				<div style="background-color:rgba(0,0,0,0.6); border-color:black; border-style:solid; color:black; width:35%; padding:3px; text-align:justify">
 					<p style="color:white; font-family:sans-serif">
 					Welcome to IgnacioLandia main webpage! <br>
@@ -122,7 +122,7 @@
 			<div id="piepagina" style="height:100%; border-width:3px; border-style:solid; clear:both; text-align:center; padding:3px; background-color:rgba(0,0,0,0.6)">
 				<div style="text-align:center">
 					<p style="color:white; font-family:helvetica"><i>More information:</i></p>
-					<a href=https://github.com/sharpplusplus/GitTest style="color:red; font-family:calibri"><i>GitHub Repo by sharpplusplus</i></a>
+					<a href=https://github.com/Pelochus/IgnacioLandia-Web style="color:red; font-family:calibri"><i>GitHub Repo by Pelochus</i></a>
 				</div>
 			</div> 
 		</center>
