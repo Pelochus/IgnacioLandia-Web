@@ -21,7 +21,7 @@
 	
 	<!-- Body -->
 	
-	<body style="background-image:url(images/bckgrnd.jpg); width:97%">
+	<body>
 	
 		<!-- Header -->
 		
