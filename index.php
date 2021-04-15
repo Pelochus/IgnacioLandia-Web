@@ -5,11 +5,13 @@
 <html>
 	<head>
 		<title>IgnacioLandia Web</title>
-		<!-- Metadatos -->
+		
+		<!-- Metadata -->
 		<meta charset="UTF-8">
 		<meta name="description" content="IgnacioLandia">
 		<meta name="author" content="Pelochus & sharpplusplus">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Para autoresolution -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Autoresolution -->
+		
 		<!-- Favicon -->
 		<link rel="shortcut icon" type="image/jpg" href="/images/favicon.jpg">
 	</head>
