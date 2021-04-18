@@ -4,55 +4,58 @@
  */
 
 body {
-	background-image: url(images/bckgrnd.jpg);
-	width: 97%;
+	background-image: url(../images/bckgrnd.jpg);
+	/* width: 100%; */
 }
 
 /* Classes */
 
+.main {
+	margin: 0 auto; /* Centers whole page */
+	width:95%;
+	max-width: 2000px;
+	overflow: hidden;
+}
+
 .header {
-	width: 100%; 
-	height: 60px; 
-	border-width: 4px; 
-	border-style: solid; 
-	top: 0; 
-	text-align: center; 
-	padding: 2px 
+	width:100%; 
+	height:auto;
+	/* top:0; */
+	/* padding:2px; */
 }
 
 .logo {
-	float: right; 
-	border-width: 3px; 
-	border-style: double; 
-	width: 8%; 
-	height: 52px; 
-	padding: 1px 
+	float:right; 
+	width:8%; 
+	height:66px; 
+	padding:1px;
 }
 
 .sidebar {
-	float: left; 
-	border-width: 3px; 
-	border-style: solid; 
-	width: 10%; 
-	height: 95%; 
-	padding: 2px; 
-	padding-top: 3px 
+	float:left; 
+	width:12%; 
+	height:90%; 
+	padding:2px; 
+	padding-top:2px;
 }
 
 .index {
-	float: right; 
-	width: 88% 
+	float:right; 
+	width:85%;
 }
 
 .footer {
-	height: 50px; 
-	border-width: 3px; 
-	border-style :solid; 
-	clear: both; 
+	height: auto;
+	width: 100%;
+	border-width: 4px; 
+	border-style: solid; 
+	clear: both;
 	text-align: center; 
-	padding: 3px 
+	padding: 3px;
+	background-color: rgba(0,0,0,0.6);
 }
 
+/* Currently not useful
 .title {
 	font-size: 40px; 
 	font-family: sans-serif; 
@@ -81,3 +84,4 @@ body {
 	padding: 3px; 
 	text-align: justify 
 }
+*/
